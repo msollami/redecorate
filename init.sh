@@ -20,6 +20,7 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vi
 # installing vim plugins
 cd ~/.vim/bundle
 git clone https://github.com/scrooloose/nerdtree.git
+git clone https://github.com/epeli/slimux.git
 
 # get some sane defaults
 echo "Grabbing sane defaults"
