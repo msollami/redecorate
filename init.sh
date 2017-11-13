@@ -1,6 +1,6 @@
 # install required packages
-pkgs="git tmux vim zsh wget python-dev libsm6 libxext6 libxrender-dev"
-pips="progressbar ptpython pudb scipy numpy scikit-learn opencv-python"
+pkgs="build-essenital git tmux vim zsh wget curl python-dev libsm6 libxext6 libxrender-dev tree"
+pips="progressbar ipython ptpython pudb scipy numpy scikit-learn opencv-python"
 
 echo "Installing core packages."
 for i in $pkgs; do
@@ -33,4 +33,4 @@ cd dotfiles
 # switch shell to zsh
 echo "switching to zsh"
 chsh -s $(which zsh)
-
+zsh
