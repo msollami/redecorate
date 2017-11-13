@@ -1,7 +1,8 @@
+export CWD=$PWD
 apt-get update
 
 # install required packages
-pkgs="build-essenital ipython git tmux vim zsh wget curl python-dev libsm6 libxext6 libxrender-dev tree"
+pkgs="build-essenital git tmux vim zsh wget curl python-dev libsm6 libxext6 libxrender-dev tree"
 pips="progressbar ptpython pudb scipy numpy scikit-learn opencv-python"
 
 echo "Installing core packages."
@@ -36,3 +37,5 @@ cd dotfiles
 echo "switching to zsh"
 chsh -s $(which zsh)
 zsh
+
+cd $CWD
