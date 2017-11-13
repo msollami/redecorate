@@ -1,8 +1,8 @@
 apt-get update
 
 # install required packages
-pkgs="build-essenital git tmux vim zsh wget curl python-dev libsm6 libxext6 libxrender-dev tree"
-pips="progressbar ipython ptpython pudb scipy numpy scikit-learn opencv-python"
+pkgs="build-essenital ipython git tmux vim zsh wget curl python-dev libsm6 libxext6 libxrender-dev tree"
+pips="progressbar ptpython pudb scipy numpy scikit-learn opencv-python"
 
 echo "Installing core packages."
 for i in $pkgs; do
