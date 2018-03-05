@@ -6,6 +6,7 @@ Sets up a nice dev environment for linux.
 After cloning, run
 
 ``
-cd redecorate\n
+cd redecorate
+
 sudo ./init.sh
 ``
